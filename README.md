@@ -123,7 +123,7 @@ Aksi penghapusan data pada `delete.php`:
 
 | No | Kasus Pengujian | Tindakan | Hasil yang Diharapkan |
 |---|---|---|---|
-| 1 | **Tambah Produk Valid** | Isi Nama: "Sepatu Lari", Harga: 250000, Stok: 10 $\rightarrow$ Simpan | Produk berhasil disimpan dan muncul di kartu produk `index.php`. |
+| 1 | **Tambah Produk Valid** | Isi Nama: "kopi susu", Harga: 25000, Stok: 10 $\rightarrow$ Simpan | Produk berhasil disimpan dan muncul di kartu produk `index.php`. |
 | 2 | **Validasi Nama Pendek** | Isi Nama: "Ab", Harga: 10000, Stok: 5 $\rightarrow$ Simpan | Ditolak oleh PHP dengan pesan error *"Nama produk minimal 3 karakter"*. |
 | 3 | **Validasi Harga / Stok Negatif** | Isi Harga: -5000 atau Stok: -2 $\rightarrow$ Simpan | Ditolak oleh PHP dengan pesan error validasi yang sesuai. |
 | 4 | **Pencegahan Nama Duplikat** | Tambah produk dengan nama yang sudah ada di database | Ditolak dengan pesan *"Nama produk sudah digunakan"*. |
